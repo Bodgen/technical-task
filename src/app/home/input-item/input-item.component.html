@@ -1,0 +1,21 @@
+<div class="container">
+  <div *ngIf="loading">
+    <p>Loading...</p>
+  </div>
+  <div *ngIf="!loading">
+    <form [formGroup]="form">
+      <div class="formPart">
+        <select formControlName="firstCurrency">
+          <option *ngFor="let symbol of symbols">{{symbol}}</option>
+        </select>
+        <input type="number" id="firstValue" formControlName="firstValue">
+      </div>
+      <div class="formPart">
+        <select formControlName="secondCurrency">
+          <option *ngFor="let symbol of symbols">{{symbol}}</option>
+        </select>
+        <input type="number" id="secondValue" formControlName="secondValue">
+      </div>
+    </form>
+  </div>
+</div>

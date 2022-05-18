@@ -1,0 +1,19 @@
+.container{
+  border: 1px solid #ffffff;
+  margin-right: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.wrapper{
+  padding: 10px;
+}
+.pair{
+  color: #a9a9a9;
+}
+
+.rate{
+
+}

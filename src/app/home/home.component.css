@@ -1,0 +1,9 @@
+.wrapper{
+  padding: 20px;
+  display: flex;
+  margin-left: auto;
+  justify-content: center;
+}
+input{
+  margin-bottom: 10px;
+}

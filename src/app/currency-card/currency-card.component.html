@@ -1,0 +1,15 @@
+<div class="container">
+
+  <div class="wrapper">
+    <div class="pair" *ngIf="loading">
+      Loading...
+    </div>
+    <div *ngIf="!loading">
+      <span class="pair">{{from}}</span>
+      <span>/</span>
+      <span class="pair">{{to}}</span>
+      <span> : </span>
+      <span class="rate">{{rate}}</span>
+    </div>
+  </div>
+</div>

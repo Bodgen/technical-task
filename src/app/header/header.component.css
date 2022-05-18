@@ -1,0 +1,17 @@
+.header{
+  height: 80px;
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header h1{
+  margin-left: 150px;
+  color: white;
+}
+
+.rates-container{
+  display: flex;
+  margin-right: 100px;
+}
